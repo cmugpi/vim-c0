@@ -11,8 +11,8 @@ though you should probably also take a look at Pathogen, as it's more common.
 
 ```
 # if your ~/.vim folder isn't under source control:
-git clone https://github.com/jez/vim-c0 ~/.vim/bundle/
+git clone https://github.com/cmugpi/vim-c0 ~/.vim/bundle/
 
 # if your ~/.vim folder is under source control:
-git submodule add https://github.com/jez/vim-c0 ~/.vim/bundle/
+git submodule add https://github.com/cmugpi/vim-c0 ~/.vim/bundle/
 ```
