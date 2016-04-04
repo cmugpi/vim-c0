@@ -104,7 +104,7 @@ syn case match
 
 " c0 annotations
 syntax keyword cAnnoSpec	contained requires ensures loop_invariant assert
-syntax match cAnnoVal		contained "\\\(result\|length\|old\)\|NULL"
+syntax match cAnnoVal		contained "\\\(result\|length\|hastag\)"
 
 if exists("c_comment_strings")
   " A comment can contain cString, cCharacter and cNumber.
